@@ -9,7 +9,7 @@ import findspark
 findspark.init()
 
 spark = (SparkSession.builder
-         .appName("The top most common words in The Master and Margarita, by Bulgakov Mikhail")
+         .appName("Laba 3")
          .master("local[*]")
          .getOrCreate()
          )
